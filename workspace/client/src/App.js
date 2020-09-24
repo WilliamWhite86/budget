@@ -1,12 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Table from './Table';
+import Input from './components/Input';
+import Button from './components/Button';
 
 function App() {
   return (
     <div className="App">
-      <Table></Table>
+      <Input></Input>
+      <Button></Button>
     </div>
   );
 }
