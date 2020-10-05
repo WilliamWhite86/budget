@@ -5,7 +5,6 @@ class Input extends React.Component {
       super(props);
       this.state = {
         bill: "",
-        income: ""
       };
   
       this.handleInputChange = this.handleInputChange.bind(this);
@@ -30,15 +29,6 @@ class Input extends React.Component {
               name="bill"
               type="currency"
               checked={this.state.bill}
-              onChange={this.handleInputChange} />
-          </label>
-          <br />
-          <label>
-            Income:
-            <input
-              name="income"
-              type="currency"
-              value={this.state.income}
               onChange={this.handleInputChange} />
           </label>
         </form>
