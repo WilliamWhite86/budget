@@ -2,7 +2,7 @@ import React from 'react';
 
 class AddButton extends React.Component {
     handleClick() {
-      console.log('this is:', this);
+      alert(this.props.bill);
     }
   
     render() {
@@ -10,6 +10,7 @@ class AddButton extends React.Component {
       return (
         <button onClick={() => this.handleClick()}>
           Click me
+      <text>{this.props.bill}</text>
         </button>
       );
     }

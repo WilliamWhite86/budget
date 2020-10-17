@@ -9,7 +9,6 @@ function App() {
   return (
     <div className="App">
       <Input></Input>
-      <Button></Button>
       <Table></Table>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './Button.js'
 
 class Input extends React.Component {
     constructor(props) {
@@ -31,6 +32,7 @@ class Input extends React.Component {
               checked={this.state.bill}
               onChange={this.handleInputChange} />
           </label>
+          <Button {...this.state} />
         </form>
       );
     }
